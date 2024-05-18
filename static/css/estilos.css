@@ -1,0 +1,61 @@
+body {
+    background-image: url('../img/fondo-pintar.jpg'); 
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    border: 5px solid #36BFB1;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 80%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: crosshair;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #36BFB1;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #2A9B8A;
+}
+
+@media (max-width: 600px) {
+    canvas {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    canvas {
+        width: 50%;
+        height: 50%;
+    }
+}

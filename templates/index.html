@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pintar Pantalla</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}"> <!-- Ruta al archivo CSS -->
+    </head>
+    <body>
+        <div class="button-container"> <!-- Contenedor de los botones -->
+            <button id="drawButton">Dibujar</button>
+            <button id="eraseButton">Borrar</button>
+        </div>
+        <canvas id="paintCanvas" width="800" height="600"></canvas>
+        <script src="{{ url_for('static', filename='js/pintar_pantalla.js') }}"></script> <!-- Ruta al archivo JavaScript -->
+    </body>
+</html>
+
