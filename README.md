@@ -40,7 +40,7 @@ python server.py
 
 ## Notas Adicionales
 
-- * Esta aplSe recomienda abrir la aplicación en un navegador web moderno y actualizado para obtener la mejor experiencia.
+- * Se recomienda abrir la aplicación en un navegador web moderno y actualizado para obtener la mejor experiencia.
 - * Utiliza Flask como framework web en el backend y HTML5, CSS3 y JavaScript en el frontend.
 - * Este README.md proporciona una descripción general del proyecto, su estructura, los componentes principales y cómo usarlo. 
 - * Puedes modificarlo según tus necesidades y agregar más detalles si lo deseas.
